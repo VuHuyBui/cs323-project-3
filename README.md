@@ -8,11 +8,13 @@ Author: James Bui
 ```
 project3/
 │
-├── comparison.png            # Output Plot of Runtime Comparison
-├── comparison_log.png        # Output Plot of Runtime Comparison (log-transform)
-├── project3.ipynb            # Main Jupyter Notebook containing all experiments
-├── requirements.txt          # Dependencies for running the notebook
-└── README.md                 # Documentation and usage instructions
+├── comparison_three_plots.png        # Combined plot: Total, Encryption, and Decryption time comparisons
+├── comparison_total_time.png         # Total runtime comparison (No Protection, Shamir, Paillier)
+├── comparison_encryption_time.png    # Encryption time comparison (Shamir vs Paillier)
+├── comparison_decryption_time.png    # Decryption time comparison (Shamir vs Paillier)
+├── project3.ipynb                    # Main Jupyter Notebook containing all experiments
+├── requirements.txt                  # Dependencies for running the notebook
+└── README.md                         # Documentation and usage instructions
 ```
 
 ---
