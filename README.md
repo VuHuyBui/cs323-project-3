@@ -15,7 +15,8 @@ project3/
 ├── project3.ipynb                    # Main Jupyter Notebook containing all experiments
 ├── requirements.txt                  # Dependencies for running the notebook
 └── README.md                         # Documentation and usage instructions
-```
+└── *.csv                             # output CSV files of runs
+```   
 
 ---
 
@@ -97,6 +98,7 @@ The notebook explores **privacy-preserving computation** using:
 After running the notebook, you will obtain:
 
 * **Runtime comparisons** plotted and saved in `comparison_three_plots.png`
+* **Runtime** saved in the CSV files.
 ---
 
 ## Notes
