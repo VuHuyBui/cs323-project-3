@@ -1,6 +1,8 @@
 
 # Project 3: Secret Sharing
 
+Author: James Bui
+
 ## Folder Directory
 
 ```
