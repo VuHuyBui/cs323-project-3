@@ -1,7 +1,7 @@
 
-# 🔐 Project 3: Secret Sharing
+# Project 3: Secret Sharing
 
-## 📁 Folder Directory
+## Folder Directory
 
 ```
 project3/
@@ -15,7 +15,7 @@ project3/
 
 ---
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 ### 1. Install Python
 
@@ -51,7 +51,7 @@ pip install numpy matplotlib phe
 > The `phe` package is used for the **Paillier encryption** implementation.
 ---
 
-## 🚀 How to Run the Notebook
+## How to Run the Notebook
 
 ### Option 1: Using Jupyter Notebook
 
@@ -73,7 +73,7 @@ pip install numpy matplotlib phe
 
 ---
 
-## 🧮 Experiment Overview
+## Experiment Overview
 
 The notebook explores **privacy-preserving computation** using:
 
@@ -89,7 +89,7 @@ The notebook explores **privacy-preserving computation** using:
 
 ---
 
-## 📊 Output & Results
+## Output & Results
 
 After running the notebook, you will obtain:
 
@@ -97,9 +97,9 @@ After running the notebook, you will obtain:
 * **Prime generation logs** stored in `results/shamir_primes.txt`
 ---
 
-## 🧠 Notes
+## Notes
 
 * Make sure the **bit lengths** for Shamir and Paillier are aligned to ensure a fair comparison.
-* When working with large `n` (e.g., 1,000,000), experiments may take several minutes depending on hardware.
+* When working with large `n` (e.g., 1,000,000), experiments may take several hours depending on hardware.
 * To avoid integer overflow, ensure the modulus (`prime` or `n^2`) is larger than the total sum.
 * The code can be adapted for **average computation**, **secure summation**, or other homomorphic operations.
