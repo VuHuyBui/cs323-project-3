@@ -96,7 +96,7 @@ The notebook explores **privacy-preserving computation** using:
 
 After running the notebook, you will obtain:
 
-* **Runtime comparisons** plotted and saved in `comparison_log.png`
+* **Runtime comparisons** plotted and saved in `comparison_three_plots.png`
 ---
 
 ## Notes
