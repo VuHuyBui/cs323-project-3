@@ -86,7 +86,6 @@ The notebook explores **privacy-preserving computation** using:
 
 * Compare runtime performance between Paillier and Shamir encryption for increasing number of participants (`n`).
 * Ensure equivalent **security levels** by matching **prime bit lengths** between both schemes.
-* Analyze how computation time scales with `n` and `max_value`.
 * Visualize runtime results in milliseconds.
 
 ---
@@ -95,8 +94,7 @@ The notebook explores **privacy-preserving computation** using:
 
 After running the notebook, you will obtain:
 
-* **Runtime comparisons** plotted and saved in `results/runtime_comparison.png`
-* **Prime generation logs** stored in `results/shamir_primes.txt`
+* **Runtime comparisons** plotted and saved in `comparison_log.png`
 ---
 
 ## Notes
